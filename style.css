@@ -1,6 +1,7 @@
 body {
   font-family: Helvetica, sans-serif;
   color: #fff;
+  background-color: #222;
   background-image: url("redmap.jpg");
   text-align: center;
 }
@@ -22,20 +23,20 @@ a {
 #header {
   padding: 10px;
   margin-top: 20px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 #content {
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  
 }
 
 .picker {
   background: rgba(0,0,0,0.6);
   clear: left;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 #stagePicker {

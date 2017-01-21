@@ -1,0 +1,63 @@
+body {
+  font-family: Helvetica, sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+#header {
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.picker {
+  background-color: #eee;
+  clear: left;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#stagePicker {
+  min-height: 150px;
+}
+
+#stageName, .target , #wildcard {
+  color: #22aa22;
+}
+
+#targetPicker {
+  min-height: 300px;
+}
+
+#wildcardPicker {
+  min-height: 150px;
+}
+
+#targets {
+  display: inline-block;  
+}
+
+.target {
+  float: left;
+  min-height: 200px;
+  min-width: 150px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #ccc
+}
+
+.targetName {
+  font-weight: bold;
+  color: #222;
+}
+
+#footer {
+  padding: 10px; 
+}

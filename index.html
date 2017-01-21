@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>HITMAN Hat Game</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="hitman.js"></script>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      The HITMAN Hat Game
+    </div>
+    <div id="content">
+      <div class="picker" id="stagePicker"> 
+        <h2>Stage</h2>
+        <p>
+          <button onclick="pickStage()">Pick stage</button>
+        </p>
+        <p id="stageName"></p>
+      </div>
+      <div class="picker" id="targetPicker">
+        <h2>Targets</h2>
+        <div id="targets"></div>
+      </div>
+      <div class="picker" id="wildcardPicker">
+        <h2>Wildcard</h2>
+        <p>
+          <button id="wildcardButton" disabled="true" onclick="pickWildcard()">Pick wildcard</button>
+        </p>
+        <p id="wildcard"></p>
+      </div>
+    </div>
+    <div id="footer">
+      Inspired by <a href="http://www.giantbomb.com/videos/holiday-specialtacular-2016-hitsmas/2300-11776/">Giant Bomb</a>. Made by <a href="http://thisisalan.com">Alan Joyce</a>.
+    </div>
+  </body>
+</html>

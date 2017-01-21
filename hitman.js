@@ -13,6 +13,9 @@ var stageData = '{ "stages" : [' +
 
 var stages = JSON.parse(stageData).stages;
 
+// This list includes only wildcards which can work on any stage
+// Stage-specific wildcards should be included in the "localWildcards"
+// section of the stageData above.
 var wildcards = ["can only use one disguise", "one safety save", "one kill must be accidental", "must successfully assassinate four non-targets", "cannot unlock any doors", "must start in the suit", "must never be frisked", "targets may only be killed in bathrooms", "must set off an explosion in a densely populated area", "may save once after first assassination", "only non-lethal weapons allowed", "must escape out furthest exit from your last target", "must end the mission with 3 stars or better", "must end the mission with a 1- or 2-star rating"];
 
 var pickedStage = "";

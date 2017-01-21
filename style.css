@@ -37,11 +37,9 @@ a {
   clear: left;
   padding: 10px;
   margin-top: 15px;
-}
-
-#stagePicker {
   min-height: 160px;
 }
+
 
 #stageName, .target , #wildcard {
   color: rgb(202, 60, 60);
@@ -49,10 +47,6 @@ a {
 
 #targetPicker {
   min-height: 300px;
-}
-
-#wildcardPicker {
-  min-height: 150px;
 }
 
 #targets {

@@ -4,6 +4,8 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="hitman.js"></script>
+      
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -15,7 +17,7 @@
       <div class="picker" id="stagePicker"> 
         <h2>Stage</h2>
         <p>
-          <button onclick="pickStage()">Pick stage</button>
+          <button onclick="pickStage()" class="pure-button pure-button-primary">Pick stage</button>
         </p>
         <p id="stageName"></p>
       </div>
@@ -26,7 +28,7 @@
       <div class="picker" id="wildcardPicker">
         <h2>Wildcard</h2>
         <p>
-          <button id="wildcardButton" disabled="true" onclick="pickWildcard()">Pick wildcard</button>
+          <button id="wildcardButton" disabled="true" onclick="pickWildcard()" class="pure-button">Pick wildcard</button>
         </p>
         <p id="wildcard"></p>
       </div>

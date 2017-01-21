@@ -26,7 +26,7 @@ function pickStage() {
   $("#targets").empty();
   for(var i = 0; i < pickedStage.targets.length; i++) {
     var target = pickedStage.targets[i];
-    $("#targets").append("<div class='target' id='target" + i + "'><p class='targetName'>" + target + "</p><button onclick='pickWeapon(" + i + ")' class='pure-button'>Pick weapon</button><p id='weapon" + i + "'>...</p><button onclick='pickDisguise(" + i + ")' class='pure-button'>Pick disguise</button><p id='disguise" + i + "'>...</p></div>");
+    $("#targets").append("<div class='target' id='target" + i + "'><p class='targetName'>" + target + "</p><button onclick='pickWeapon(" + i + ")' class='pure-button button-dark'>Pick weapon</button><p id='weapon" + i + "'>...</p><button onclick='pickDisguise(" + i + ")' class='pure-button button-dark'>Pick disguise</button><p id='disguise" + i + "'>...</p></div>");
   }
 
   $("#wildcardButton").prop('disabled', false);

@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="header">
-      The HITMAN Hat Game
-    </div>
+    <div id="header"><img src="hitman_logo.jpg" width=500></div>
     <div id="content">
+        <p>Pick your stage, targets, weapon, and disguise.</p>
+        <p>Feeling dangerous? Pick a wildcard.</p>
+      <p></p>
       <div class="picker" id="stagePicker"> 
         <h2>Stage</h2>
         <p>
-          <button onclick="pickStage()" class="pure-button pure-button-primary">Pick stage</button>
+          <button onclick="pickStage()" class="pure-button button-red">Pick stage</button>
         </p>
         <p id="stageName"></p>
       </div>
@@ -28,13 +29,14 @@
       <div class="picker" id="wildcardPicker">
         <h2>Wildcard</h2>
         <p>
-          <button id="wildcardButton" disabled="true" onclick="pickWildcard()" class="pure-button">Pick wildcard</button>
+          <button id="wildcardButton" disabled="true" onclick="pickWildcard()" class="pure-button button-dark">Pick wildcard</button>
         </p>
         <p id="wildcard"></p>
       </div>
     </div>
     <div id="footer">
-      Inspired by <a href="http://www.giantbomb.com/videos/holiday-specialtacular-2016-hitsmas/2300-11776/">Giant Bomb</a>. Made by <a href="http://thisisalan.com">Alan Joyce</a>.
+      <p>Inspired by <a href="http://www.giantbomb.com/videos/holiday-specialtacular-2016-hitsmas/2300-11776/">Giant Bomb</a>.</p> 
+        <p>Made by <a href="http://thisisalan.com">Alan Joyce</a> and <a href="http://twitter.com/jterleski">Jonathan Terleski</a>.</p>
     </div>
   </body>
 </html>
